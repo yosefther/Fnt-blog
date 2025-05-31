@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Subscribe - FNT BLOG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site-header">
+    <h1> FNT BLOG</h1>
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <div class="subscribe">
+      <h2> Subscribe to FNT BLOG</h2>
+      <p>Get the latest articles and updates directly to your inbox.</p>
+
+      <form onsubmit="return handleSubscribe()">
+        <div class="form-group">
+          <label for="email">Your Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FNT BLOG</p>
+  </footer>
+
+  <script>
+    function handleSubscribe() {
+      const email = document.getElementById("email").value.trim();
+      if (!email) {
+        alert("Please enter your email.");
+        return false;
+      }
+      alert("Thank you for subscribing!");
+      return false; // prevents form from reloading the page
+    }
+  </script>
+
+</body>
+</html>
