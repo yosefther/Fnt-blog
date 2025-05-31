@@ -288,3 +288,34 @@ button {
 button:hover {
   background-color: #005f99;
 }
+.article-page {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.article-page h2 {
+  color: #007acc;
+}
+
+.article-page h3 {
+  margin-top: 20px;
+  color: #444;
+}
+
+.article-page ul {
+  margin: 10px 0 20px 20px;
+}
+
+.article-page li {
+  margin-bottom: 5px;
+}
+
+.article-page .read-more {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.article-page .read-more:hover {
+  text-decoration: underline;
+}
