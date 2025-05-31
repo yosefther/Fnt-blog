@@ -227,3 +227,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.about {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about h2, .about h3 {
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.about table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.about th, .about td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.about th {
+  background-color: #f0f0f0;
+}
