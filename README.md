@@ -17,4 +17,4 @@ Fnt-blog/
 - [ ] make simple web admin panel 
 - [ ] restruct the files 
 - [ ] fix contact
-- [] fix About style 
+- [ ] fix About style 
