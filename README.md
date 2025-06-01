@@ -17,7 +17,7 @@ Fnt-blog/
 - [ ] make simple web admin panel 
 - [ ] restruct the files 
 - [ ] fix contact
-- [] fix About style 
+- [ ] fix About style 
 - [ ] add project section and make a struct for it example " './c ' , './py' , './Physics_Engine ' , './Upcoming' "
 - [ ] add dark mode
 - [ ] check browser compatibility 
